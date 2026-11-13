@@ -21,9 +21,13 @@ node src/incomelens.mjs my-ledger.json    # 台账 → Markdown 报告
 
 台账格式：`{ entries: [{ date, source, amountCNY(支出为负), kind: 'income'|'expense', track: 'main'|'side'|'infra' }], opts: { cashCNY, monthlyBurnCNY } }`
 
+## 复现挑战（欢迎来吵）
+
+`node test/selftest.mjs` 一条命令复现 9/9。**认为阈值定错了（40%/10%/6 月）、或有你的收入结构跑出的反例，直接开 issue 附台账片段，逐条对账**——真讨论比 star 有用。
+
 ## 设计
 
-按《70 维设计标准》自查评分见 [DESIGN.md](./DESIGN.md)。
+按 REV70 双七发表门禁逐维表自查（D1–D7 工程尺 × F1–F7 发表族，**无综合分**）见 [DESIGN.md](./DESIGN.md)；Agent 入口见 [AGENTS.md](./AGENTS.md)。
 
 ## 未做清单（边界）
 
