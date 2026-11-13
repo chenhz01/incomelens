@@ -1,8 +1,8 @@
 # incomelens — 多收入源个人 AI 财务顾问
 
-[![selftest](https://img.shields.io/badge/selftest-9%2F9%20PASS-brightgreen)](./test/selftest.mjs) [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![selftest](https://img.shields.io/badge/selftest-9%2F9%20PASS-brightgreen)](./test/selftest.mjs) [![license](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
 
-**解决什么问题**：开源个人财务 app 的头部项目（14k★，全场增速第二）证明「个人多收入源管理」是真需求，但它有两个不满足：① 单机账本思维，不适配「一人公司多业务线」结构；② 许可 AGPL-3.0 挡住了商业跟风。incomelens 自实现，MIT，专为「同时跑 3-5 条副业线的个人」设计。
+**解决什么问题**：开源个人财务 app 的头部项目（14k★，全场增速第二）证明「个人多收入源管理」是真需求，但它有两个不满足：① 单机账本思维，不适配「一人公司多业务线」结构；② 许可 AGPL-3.0 挡住了商业跟风。incomelens 自实现（Apache-2.0，遵宪法 F21 双许可之代码条款），专为「同时跑 3-5 条副业线的个人」设计。
 
 ## 三条规则引擎（不是黑箱打分，每条告警带计算式）
 
